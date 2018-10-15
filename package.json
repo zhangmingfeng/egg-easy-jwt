@@ -1,0 +1,40 @@
+{
+  "author": "zhangmingfeng",
+  "bundleDependencies": [
+    "jsonwebtoken",
+    "lodash"
+  ],
+  "dependencies": {
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11"
+  },
+  "deprecated": false,
+  "description": "egg jwt plugin",
+  "eggPlugin": {
+    "name": "jwt"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "app",
+    "config",
+    "agent.js",
+    "lib",
+    "app.js"
+  ],
+  "keywords": [
+    "egg",
+    "jwt",
+    "egg-plugin",
+    "eggPlugin",
+    "jsonwebtoken"
+  ],
+  "license": "MIT",
+  "name": "egg-easy-jwt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangmingfeng/egg-easy-jwt.git"
+  },
+  "version": "1.0.0"
+}
